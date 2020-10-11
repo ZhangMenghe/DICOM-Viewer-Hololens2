@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="XrApp.cpp" />
+    <ClCompile Include="PbrModelObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTexture.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectionLayer.cpp">
+      <Filter>Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene_Title.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="QuadLayerObject.cpp">
+      <Filter>Layers</Filter>
+    </ClCompile>
+    <ClCompile Include="ControllerObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SpaceObject.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectMotion.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="XrApp.h" />
+    <ClInclude Include="PbrModelObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameTime.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Context.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTexture.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CompositionLayers.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectionLayer.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="QuadLayerObject.h">
+      <Filter>Layers</Filter>
+    </ClInclude>
+    <ClInclude Include="ControllerObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SpaceObject.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectMotion.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{c8fee26b-99f6-4972-b4c7-59860905328d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Layers">
+      <UniqueIdentifier>{823681fb-5d10-4e98-84fe-d248dc171376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{2e2f732d-d965-47b1-88cf-6f5085d0ff77}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
