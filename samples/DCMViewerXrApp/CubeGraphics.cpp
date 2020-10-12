@@ -163,6 +163,9 @@ namespace {
             depthStencilDesc.DepthWriteMask = D3D11_DEPTH_WRITE_MASK_ALL;
             depthStencilDesc.DepthFunc = D3D11_COMPARISON_GREATER;
             CHECK_HRCMD(m_device->CreateDepthStencilState(&depthStencilDesc, m_reversedZDepthNoStencilTest.put()));
+            //GLuint glprogram = glCreateProgram();
+            /*glDispatchCompute(1, 1, 1);
+            glMemoryBarrier(GL_BUFFER_UPDATE_BARRIER_BIT);*/
         }
 
         const std::vector<DXGI_FORMAT>& SupportedColorFormats() const override {

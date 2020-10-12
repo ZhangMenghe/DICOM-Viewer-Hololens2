@@ -47,3 +47,5 @@
 #include <XrUtility/XrExtensions.h>
 
 #include <winrt/base.h> // winrt::com_ptr
+
+#include <GLES3/gl31.h>
