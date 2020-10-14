@@ -47,7 +47,10 @@
     <None Include="TemporaryKey.pfx">
       <Filter>Assets</Filter>
     </None>
-    <None Include="$(OpenXRLoaderBinaryRoot)\bin\openxr_loader.dll" />
     <None Include="packages.config" />
+    <None Include="$(OpenXRLoaderBinaryRoot)\bin\openxr_loader.dll" />
+    <None Include="libEGL.dll" />
+    <None Include="libGLESv2.dll" />
+    <None Include="zlib.dll" />
   </ItemGroup>
 </Project>
